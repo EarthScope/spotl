@@ -43,10 +43,3 @@ COPY working /opt/spotl/working/
 ENV PATH="/opt/spotl/bin:/opt/spotl/working:${PATH}"
 
 CMD ["echo", "enter 'docker run -it spotl_docker /bin/bash' to access interactive terminal"]
-
-
-#docker build -f Dockerfile_spotl -t unavdocker/spotl .
-#docker push unavdocker/spotl:latest
-#docker run -it spotl_docker /bin/bash
-
-#../bin/nloadf B073 35.9467 -120.4717 535.3 m2.gefu green.tpxo70.std l
